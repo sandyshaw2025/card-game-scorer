@@ -118,7 +118,7 @@ export default function App() {
                   className="flex items-center gap-1 px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition-colors text-xs"
                 >
                   <Plus className="w-3 h-3" />
-                  Add
+                  Add Player
                 </button>
               )}
             </div>
@@ -278,4 +278,5 @@ export default function App() {
     </div>
   );
 }
+
 
