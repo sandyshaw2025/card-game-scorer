@@ -153,12 +153,7 @@ export default function App() {
               {players.map(player => (
                 <div key={player.id} className="flex items-center gap-1 bg-indigo-100 px-2 py-1 rounded-full text-sm">
                   <span className="font-medium text-indigo-800">{player.initials}</span>
-                  <button
-                    onClick={() => removePlayer(player.id)}
-                    className="text-red-500 hover:text-red-700"
-                  >
-                    <Minus className="w-3 h-3" />
-                  </button>
+                  
                 </div>
               ))}
             </div>
@@ -278,5 +273,6 @@ export default function App() {
     </div>
   );
 }
+
 
 
