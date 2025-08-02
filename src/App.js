@@ -169,8 +169,8 @@ export default function App() {
               {/* Current Round Input */}
               <div className="mb-6 bg-gray-50 p-3 rounded-lg">
                 <h3 className="text-base font-semibold text-gray-700 mb-2">
-                  Round {rounds.length + 1}
-                </h3>
+                  Round {rounds.length + 1} Score
+                </h3> 
                 <div className="flex flex-wrap gap-2 justify-center">
                   {players.map(player => (
                     <div key={player.id} className="flex flex-col items-center">
@@ -278,3 +278,4 @@ export default function App() {
     </div>
   );
 }
+
